@@ -5,34 +5,27 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="kqzRWE3GufIB7iaEmkyX-1" value="Instructor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="345" y="-750" width="160" height="86" as="geometry" />
-        </mxCell>
-        <mxCell id="kqzRWE3GufIB7iaEmkyX-2" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kqzRWE3GufIB7iaEmkyX-1">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+          <mxGeometry x="310" y="-790" width="260" height="150" as="geometry" />
         </mxCell>
         <mxCell id="kqzRWE3GufIB7iaEmkyX-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="kqzRWE3GufIB7iaEmkyX-1">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="26" width="260" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="kqzRWE3GufIB7iaEmkyX-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kqzRWE3GufIB7iaEmkyX-1">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        <mxCell id="kqzRWE3GufIB7iaEmkyX-4" value="&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ Instructor(String, String, String): void&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ createCourse(): void&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ updateCourse(courseID: String): void&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ deleteCourse(courseID: String): void&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ addLesson(courseID: String, Lesson): void&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ createQuiz(courseID: String, Quiz): void&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ viewCourseAnalytics(courseID: String): void&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kqzRWE3GufIB7iaEmkyX-1">
+          <mxGeometry y="34" width="260" height="116" as="geometry" />
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-1" value="Admin" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="-750" width="160" height="86" as="geometry" />
-        </mxCell>
-        <mxCell id="VTFS2XYM8ObmC6yTzXB_-2" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VTFS2XYM8ObmC6yTzXB_-1">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+          <mxGeometry x="590" y="-750" width="250" height="150" as="geometry" />
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="VTFS2XYM8ObmC6yTzXB_-1">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="26" width="250" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="VTFS2XYM8ObmC6yTzXB_-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VTFS2XYM8ObmC6yTzXB_-1">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        <mxCell id="VTFS2XYM8ObmC6yTzXB_-4" value="&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ Admin(String, String, String): void&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ viewUsers(): List&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ approveCourse(courseID: String): void&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ removeCourse(courseID: String): void&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ suspendUser(userID: String): void&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ viewPlatformAnalytics(): void&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VTFS2XYM8ObmC6yTzXB_-1">
+          <mxGeometry y="34" width="250" height="116" as="geometry" />
         </mxCell>
-        <mxCell id="VTFS2XYM8ObmC6yTzXB_-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.017;entryY=0.856;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VTFS2XYM8ObmC6yTzXB_-5" target="VTFS2XYM8ObmC6yTzXB_-23">
+        <mxCell id="VTFS2XYM8ObmC6yTzXB_-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VTFS2XYM8ObmC6yTzXB_-5" target="VTFS2XYM8ObmC6yTzXB_-23">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="160" y="-500" />
-              <mxPoint x="187" y="-500" />
+              <mxPoint x="180" y="-392" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -42,35 +35,35 @@
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="VTFS2XYM8ObmC6yTzXB_-5">
           <mxGeometry y="26" width="260" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="VTFS2XYM8ObmC6yTzXB_-8" value="+ Student(username, email, password): void&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ browseCourses(): List&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ enrollCourse(courseID: String): boolean&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ completeLesson(lessonID: String): boolean&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ takeQuiz(quizID: String): result&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ viewCertificate(courseID: String): Certificate&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ viewProgress(): Analytics&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VTFS2XYM8ObmC6yTzXB_-5">
+        <mxCell id="VTFS2XYM8ObmC6yTzXB_-8" value="+ Student(String, String, String): void&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ browseCourses(): List&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ enrollCourse(courseID: String): boolean&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ completeLesson(lessonID: String): boolean&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ takeQuiz(quizID: String): result&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ viewCertificate(courseID: String): Certificate&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ viewProgress(): Analytics&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VTFS2XYM8ObmC6yTzXB_-5">
           <mxGeometry y="34" width="260" height="116" as="geometry" />
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-14" value="&lt;i&gt;User&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="-1100" width="350" height="270" as="geometry" />
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-15" value="- id: String&lt;div&gt;- username: String&lt;/div&gt;&lt;div&gt;- email: String&lt;/div&gt;&lt;div&gt;- password: String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VTFS2XYM8ObmC6yTzXB_-14">
-          <mxGeometry y="26" width="350" height="104" as="geometry" />
+          <mxGeometry y="26" width="350" height="74" as="geometry" />
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="VTFS2XYM8ObmC6yTzXB_-14">
-          <mxGeometry y="130" width="350" height="8" as="geometry" />
+          <mxGeometry y="100" width="350" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="VTFS2XYM8ObmC6yTzXB_-17" value="+ User(username: String, email: String, password: String): void&lt;div&gt;+ generateId(): String&lt;/div&gt;&lt;div&gt;+ getUsername(): String&lt;/div&gt;&lt;div&gt;+ getEmail(): String&lt;/div&gt;&lt;div&gt;+ getPassword(): String&lt;/div&gt;&lt;div&gt;+ setUsername(String): void&lt;/div&gt;&lt;div&gt;+ setEmail(String): void&lt;/div&gt;&lt;div&gt;+ setPasswrod(String): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VTFS2XYM8ObmC6yTzXB_-14">
-          <mxGeometry y="138" width="350" height="132" as="geometry" />
+        <mxCell id="VTFS2XYM8ObmC6yTzXB_-17" value="+ User(username: String, email: String, password: String): void&lt;div&gt;+ generateId(): String&lt;/div&gt;&lt;div&gt;+ getUsername(): String&lt;/div&gt;&lt;div&gt;+ getEmail(): String&lt;/div&gt;&lt;div&gt;+ getPassword(): String&lt;/div&gt;&lt;div&gt;+ setUsername(String): void&lt;/div&gt;&lt;div&gt;+ setEmail(String): void&lt;/div&gt;&lt;div&gt;+ setPasswrod(String): void&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ login(): void&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ logout(): void&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VTFS2XYM8ObmC6yTzXB_-14">
+          <mxGeometry y="108" width="350" height="162" as="geometry" />
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-22" value="Analytics" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="-589" width="200" height="144" as="geometry" />
+          <mxGeometry x="210" y="-490" width="300" height="260" as="geometry" />
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-23" value="&lt;span style=&quot;text-align: center;&quot;&gt;- studentID: int&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- completedCourses: List&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;- certificates: List&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- timeSpent: Map&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- quizGrades: Map&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VTFS2XYM8ObmC6yTzXB_-22">
-          <mxGeometry y="26" width="200" height="84" as="geometry" />
+          <mxGeometry y="26" width="300" height="84" as="geometry" />
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="VTFS2XYM8ObmC6yTzXB_-22">
-          <mxGeometry y="110" width="200" height="8" as="geometry" />
+          <mxGeometry y="110" width="300" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="VTFS2XYM8ObmC6yTzXB_-25" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VTFS2XYM8ObmC6yTzXB_-22">
-          <mxGeometry y="118" width="200" height="26" as="geometry" />
+        <mxCell id="VTFS2XYM8ObmC6yTzXB_-25" value="&lt;span style=&quot;text-align: center;&quot;&gt;+ trackProgress(courseID: String): double&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ calculateOverallProgress(): double&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ getTimeSpent(courseID: String): double&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ getQuizGrades(courseID: String): Map&lt;/span&gt;&lt;div&gt;+ getCertificates(): List&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ searchCertificates(courseID: String): Certificate&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;+ getCompletedCourses(): List&lt;/div&gt;&lt;div&gt;+ searchCompletedCourses(courseID: String): Course&lt;/div&gt;&lt;/div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ viewProgressReport(): void&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VTFS2XYM8ObmC6yTzXB_-22">
+          <mxGeometry y="118" width="300" height="142" as="geometry" />
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-26" value="CourseService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="28" width="160" height="86" as="geometry" />
+          <mxGeometry x="370" y="242" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-27" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VTFS2XYM8ObmC6yTzXB_-26">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -82,7 +75,7 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-30" value="QuizService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="33" width="160" height="86" as="geometry" />
+          <mxGeometry x="590" y="149" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-31" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VTFS2XYM8ObmC6yTzXB_-30">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -94,7 +87,7 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-34" value="UserService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="-34" width="270" height="230" as="geometry" />
+          <mxGeometry x="60" y="180" width="270" height="230" as="geometry" />
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-35" value="- users: List" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VTFS2XYM8ObmC6yTzXB_-34">
           <mxGeometry y="26" width="270" height="54" as="geometry" />
@@ -124,17 +117,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-52" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="1">
-          <mxGeometry x="145" y="-630" as="geometry">
+          <mxGeometry x="190" y="-630" as="geometry">
             <mxPoint x="21" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-53" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="1">
-          <mxGeometry x="200" y="-510" as="geometry">
+          <mxGeometry x="180" y="-130" as="geometry">
             <mxPoint x="-23" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-55" value="JsonDatabaseManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="310" width="160" height="170" as="geometry" />
+          <mxGeometry x="330" y="408" width="160" height="170" as="geometry" />
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-56" value="- USERSFILE: String&lt;div&gt;- COURSESFILE: String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VTFS2XYM8ObmC6yTzXB_-55">
           <mxGeometry y="26" width="160" height="54" as="geometry" />
@@ -146,7 +139,7 @@
           <mxGeometry y="88" width="160" height="82" as="geometry" />
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-59" value="Course" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="-327" width="250" height="170" as="geometry" />
+          <mxGeometry x="20" y="-113" width="250" height="170" as="geometry" />
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-60" value="&lt;span style=&quot;text-align: center;&quot;&gt;- courseID: int&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- title: String&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- instructorID: int&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VTFS2XYM8ObmC6yTzXB_-59">
           <mxGeometry y="26" width="250" height="74" as="geometry" />
@@ -158,7 +151,7 @@
           <mxGeometry y="108" width="250" height="62" as="geometry" />
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-63" value="Lesson" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="334" y="-387" width="230" height="210" as="geometry" />
+          <mxGeometry x="334" y="-173" width="230" height="210" as="geometry" />
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-64" value="&lt;span style=&quot;text-align: center;&quot;&gt;- lessonID: int&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- title: String&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- content: String&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- resources: List&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VTFS2XYM8ObmC6yTzXB_-63">
           <mxGeometry y="26" width="230" height="74" as="geometry" />
@@ -170,7 +163,7 @@
           <mxGeometry y="108" width="230" height="102" as="geometry" />
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-67" value="Quiz" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="314" y="-157" width="260" height="160" as="geometry" />
+          <mxGeometry x="314" y="57" width="260" height="160" as="geometry" />
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-68" value="&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- quizID: int&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- title: String&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VTFS2XYM8ObmC6yTzXB_-67">
           <mxGeometry y="26" width="260" height="44" as="geometry" />
@@ -183,11 +176,11 @@
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-72" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.001;exitY=0.78;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VTFS2XYM8ObmC6yTzXB_-60" target="VTFS2XYM8ObmC6yTzXB_-68">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
-            <mxPoint x="290" y="-237" as="sourcePoint" />
-            <mxPoint x="450" y="-307" as="targetPoint" />
+            <mxPoint x="290" y="-24" as="sourcePoint" />
+            <mxPoint x="450" y="-94" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="290" y="-243" />
-              <mxPoint x="290" y="-109" />
+              <mxPoint x="290" y="-30" />
+              <mxPoint x="290" y="104" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -198,8 +191,8 @@
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-71" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.355;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VTFS2XYM8ObmC6yTzXB_-60" target="VTFS2XYM8ObmC6yTzXB_-63">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
-            <mxPoint x="310" y="-277" as="sourcePoint" />
-            <mxPoint x="470" y="-277" as="targetPoint" />
+            <mxPoint x="310" y="-64" as="sourcePoint" />
+            <mxPoint x="470" y="-64" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-75" value="1..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="VTFS2XYM8ObmC6yTzXB_-71">
@@ -208,7 +201,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-76" value="Question" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="-307" width="240" height="240" as="geometry" />
+          <mxGeometry x="610" y="-93" width="240" height="240" as="geometry" />
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-77" value="&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- questionID: int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- rubric: String&lt;/div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- options: String[]&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- correctAnswer: List&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VTFS2XYM8ObmC6yTzXB_-76">
           <mxGeometry y="26" width="240" height="64" as="geometry" />
@@ -221,11 +214,11 @@
         </mxCell>
         <mxCell id="VTFS2XYM8ObmC6yTzXB_-80" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.991;exitY=0.955;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VTFS2XYM8ObmC6yTzXB_-68">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
-            <mxPoint x="610" y="-109" as="sourcePoint" />
-            <mxPoint x="610" y="-227" as="targetPoint" />
+            <mxPoint x="610" y="104" as="sourcePoint" />
+            <mxPoint x="610" y="-14" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="590" y="-89" />
-              <mxPoint x="590" y="-227" />
+              <mxPoint x="590" y="124" />
+              <mxPoint x="590" y="-14" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -234,14 +227,14 @@
             <mxPoint x="-4" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vKrVeM0UdDA6bS0uWYk9-1" value="enrolls in" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;entryX=0.277;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="VTFS2XYM8ObmC6yTzXB_-59">
+        <mxCell id="vKrVeM0UdDA6bS0uWYk9-1" value="enrolls in" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" edge="1" parent="1" target="VTFS2XYM8ObmC6yTzXB_-59">
           <mxGeometry x="-0.1854" y="-19" relative="1" as="geometry">
-            <mxPoint x="89" y="-610" as="sourcePoint" />
-            <mxPoint x="90" y="-390" as="targetPoint" />
+            <mxPoint x="67" y="-610" as="sourcePoint" />
+            <mxPoint x="67.25" y="-208.1099999999999" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="90" y="-610" />
-              <mxPoint x="90" y="-640" />
-              <mxPoint x="89" y="-640" />
+              <mxPoint x="68" y="-610" />
+              <mxPoint x="68" y="-640" />
+              <mxPoint x="67" y="-640" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -252,10 +245,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vKrVeM0UdDA6bS0uWYk9-3" value="*" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="1">
-          <mxGeometry x="90" y="-341" as="geometry" />
+          <mxGeometry x="70" y="-120" as="geometry" />
         </mxCell>
         <mxCell id="vKrVeM0UdDA6bS0uWYk9-4" value="Certificate" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="-623" width="220" height="200" as="geometry" />
+          <mxGeometry x="590" y="-508" width="220" height="200" as="geometry" />
         </mxCell>
         <mxCell id="vKrVeM0UdDA6bS0uWYk9-5" value="&lt;span style=&quot;text-align: center;&quot;&gt;- certificateID: String&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- studentID: String&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- courseID: String&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- issueDate: Date&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- expiryDate: Date&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vKrVeM0UdDA6bS0uWYk9-4">
           <mxGeometry y="26" width="220" height="94" as="geometry" />
@@ -266,15 +259,14 @@
         <mxCell id="vKrVeM0UdDA6bS0uWYk9-7" value="&lt;span style=&quot;text-align: center;&quot;&gt;+ generateCertificate(): String&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ validateCertificate(): boolean&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ isExpired(): boolean&lt;/span&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;+ getCertificateURL(): String&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="vKrVeM0UdDA6bS0uWYk9-4">
           <mxGeometry y="128" width="220" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="vKrVeM0UdDA6bS0uWYk9-9" value="earns" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=0.806;exitY=1.009;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.01;entryY=-0.202;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VTFS2XYM8ObmC6yTzXB_-8" target="vKrVeM0UdDA6bS0uWYk9-7">
-          <mxGeometry x="0.0444" relative="1" as="geometry">
-            <mxPoint x="220" y="-640" as="sourcePoint" />
+        <mxCell id="vKrVeM0UdDA6bS0uWYk9-9" value="earns" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;entryX=0.008;entryY=0.973;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="vKrVeM0UdDA6bS0uWYk9-5">
+          <mxGeometry x="-0.0366" y="10" relative="1" as="geometry">
+            <mxPoint x="260" y="-640" as="sourcePoint" />
             <mxPoint x="440" y="-570" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="240" y="-610" />
-              <mxPoint x="440" y="-610" />
-              <mxPoint x="440" y="-510" />
-              <mxPoint x="478" y="-510" />
+              <mxPoint x="260" y="-520" />
+              <mxPoint x="540" y="-520" />
+              <mxPoint x="540" y="-391" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -285,8 +277,46 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vKrVeM0UdDA6bS0uWYk9-11" value="*" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="1">
-          <mxGeometry x="460" y="-567" as="geometry">
-            <mxPoint x="-7" y="2" as="offset" />
+          <mxGeometry x="470" y="-560" as="geometry">
+            <mxPoint x="103" y="165" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKrVeM0UdDA6bS0uWYk9-12" value="creates" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.4063" y="-18" relative="1" as="geometry">
+            <mxPoint x="336" y="-640" as="sourcePoint" />
+            <mxPoint x="110" y="-110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="336" y="-570" />
+              <mxPoint x="110" y="-570" />
+              <mxPoint x="110" y="-113" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKrVeM0UdDA6bS0uWYk9-13" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="vKrVeM0UdDA6bS0uWYk9-12">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="4" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKrVeM0UdDA6bS0uWYk9-14" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=0.4;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VTFS2XYM8ObmC6yTzXB_-4" target="VTFS2XYM8ObmC6yTzXB_-59">
+          <mxGeometry x="0.7024" y="25" relative="1" as="geometry">
+            <mxPoint x="518" y="-570" as="sourcePoint" />
+            <mxPoint x="320" y="-146" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="-550" />
+              <mxPoint x="145" y="-550" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKrVeM0UdDA6bS0uWYk9-15" value="*" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="vKrVeM0UdDA6bS0uWYk9-14">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="10" y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKrVeM0UdDA6bS0uWYk9-16" value="*" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="90" y="-113" as="geometry">
+            <mxPoint x="27" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
